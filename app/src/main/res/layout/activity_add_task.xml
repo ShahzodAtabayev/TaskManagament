@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addLayout"
+    android:background="@drawable/background5"
+    android:orientation="vertical"
+    tools:context=".ui.screens.AddTaskActivity">
+
+    <FrameLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/buttonBackAddTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="15dp"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_arrow_back1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_task"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/buttonAddTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_marginEnd="15dp"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_check" />
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_name"
+                android:textColor="#5A5555"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@id/inputLayout"
+                app:layout_constraintStart_toStartOf="@id/inputLayout" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:textColorHint="#80736D6D"
+                app:layout_constraintEnd_toEndOf="@id/line2"
+                app:layout_constraintStart_toStartOf="@id/line1"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputTaskName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edit_text"
+                    android:hint="@string/work"
+                    android:maxLength="20"
+                    android:padding="16dp"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_info_"
+                android:textColor="#5A5555"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@id/inputLayout2"
+                app:layout_constraintStart_toStartOf="@id/inputLayout2" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayout2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:textColorHint="#80736D6D"
+                app:layout_constraintEnd_toEndOf="@id/line2"
+                app:layout_constraintStart_toStartOf="@id/line1"
+                app:layout_constraintTop_toBottomOf="@id/inputLayout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputTaskInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edit_text"
+                    android:hint="@string/to_do_work"
+                    android:padding="16dp"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="@id/line2"
+                    app:layout_constraintStart_toStartOf="@id/line1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_date_"
+                android:textColor="#5A5555"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toTopOf="@id/inputLayout3"
+                app:layout_constraintStart_toStartOf="@id/inputLayout3" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayout3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="10dp"
+                android:textColorHint="#80736D6D"
+                app:layout_constraintEnd_toStartOf="@id/inputLayout4"
+                app:layout_constraintHorizontal_weight="0.6"
+                app:layout_constraintStart_toStartOf="@id/line1"
+                app:layout_constraintTop_toBottomOf="@id/inputLayout2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputTaskDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edit_text"
+                    android:drawableEnd="@drawable/ic_interface"
+                    android:focusable="false"
+                    android:hint="@string/_09_05_2020"
+                    android:inputType="date"
+                    android:padding="16dp"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_time_"
+                android:textColor="#5A5555"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toTopOf="@id/inputLayout4"
+                app:layout_constraintStart_toStartOf="@id/inputLayout4" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputLayout4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#80736D6D"
+                app:layout_constraintBottom_toBottomOf="@id/inputLayout3"
+                app:layout_constraintEnd_toEndOf="@id/line2"
+                app:layout_constraintHorizontal_weight="0.4"
+                app:layout_constraintStart_toEndOf="@id/inputLayout3"
+                app:layout_constraintTop_toTopOf="@id/inputLayout3">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputTaskTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edit_text"
+                    android:drawableEnd="@drawable/ic_clock"
+                    android:focusable="false"
+                    android:hint="@string/_16_06"
+                    android:inputType="time"
+                    android:padding="16dp"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/inputTaskDegree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:clipToPadding="true"
+                android:layoutMode="opticalBounds"
+                android:spinnerMode="dropdown"
+                app:layout_constraintEnd_toStartOf="@+id/line2"
+                app:layout_constraintStart_toStartOf="@+id/line1"
+                app:layout_constraintTop_toBottomOf="@id/inputLayout3"
+                tools:listitem="@layout/layout_spinner"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

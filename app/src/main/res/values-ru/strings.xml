@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">Tasks</string>
+    <string name="add_task">Добавить задачу</string>
+    <string name="all_task">Вся задача</string>
+    <string name="edit_task">Изменить задачу</string>
+    <string name="history">история</string>
+    <string name="task_basket">Корзина задачи</string>
+    <string name="term_of_use">Условия эксплуатации</string>
+    <string name="instruction_to_use">Инструкция по применению</string>
+    <string name="settings">настройки</string>
+    <string name="share">Поделиться</string>
+    <string name="tasks" translatable="false">Tasks</string>
+    <string name="work">Работа</string>
+    <string name="_05_05_2020">05.05.2020</string>
+    <string name="shahzodbek_atabayev">Shahzodbek Atabayev</string>
+    <string name="task_importance_degree">Степень важности задачи</string>
+    <string name="task_time">Время задачи</string>
+    <string name="_21_00">21:00</string>
+    <string name="done">Выполнено</string>
+    <string name="canceled">отменен</string>
+    <string name="todo">ДЕЛАТЬ</string>
+    <string name="important">важный</string>
+    <string name="task_name">Название задачи </string>
+    <string name="task_info_">Описание задания</string>
+    <string name="task_date_">Дата задачи</string>
+    <string name="task_time_">Время задачи</string>
+    <string name="to_do_work">Делать работу</string>
+    <string name="_09_05_2020">09.05.2020</string>
+    <string name="_16_06">16:06</string>
+    <string name="info">Описание</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="_12_32">12:32</string>
+    <string name="edit_tasks">Изменить задачи</string>
+    <string name="edit">редактировать</string>
+    <string name="Edit">Редактировать</string>
+    <string name="delete">удалять</string>
+    <string name="restore">Восстановить</string>
+    <string name="title_splash">Планирование ежедневных тренировок\n теперь легко</string>
+    <string name="version">Версия 1.0.0</string>
+    <string name="choose_image">Выберите изображение</string>
+    <string name="fullname">полное имя</string>
+    <string name="edit_full_name">Изменить полное имя</string>
+    <string name="change_profile_image">Изменить изображение профиля</string>
+    <string name="cancel">отмена</string>
+    <string name="new_">Новый</string>
+    <string name="outdated">Устаревшие</string>
+    <string name="very_important">очень важно</string>
+    <string name="more_important">более важный</string>
+    <string name="not_so_important">не так важно</string>
+    <string name="welcome">Добро пожаловать !!!</string>
+    <string name="daily_work">Не можете спланировать свой распорядок дня?</string>
+    <string name="save_time">Экономьте свое время. С нашим приложением все просто</string>
+    <string name="availability">Доступность</string>
+    <string name="simplicity">Удобство и простота</string>
+    <string name="easier_to_plan">Это облегчает планирование ежедневных действий и запоминает их, когда вы хотите</string>
+    <string name="next">следующий</string>
+    <string name="change_language">изменение языка</string>
+    <string name="uzbekcha" translatable="false">Uzbekcha</string>
+    <string name="uzb_krill" translatable="false">Узбекча</string>
+    <string name="russion" translatable="false">Русский</string>
+    <string name="english" translatable="false">English</string>
+    <string name="confirm">Подтверждение</string>
+    <string name="soon">Cкоро!!!</string>
+    <string name="day">день</string>
+    <string name="toast1">Пожалуйста. Введите название задачи !!!</string>
+    <string name="toast2">Пожалуйста. Введите описание задачи !!!</string>
+    <string name="toast3">Пожалуйста. Введите дату задания !!!</string>
+    <string name="toast4">Пожалуйста. Введите время задачи !!!</string>
+    <string name="finish">конец</string>
+</resources>

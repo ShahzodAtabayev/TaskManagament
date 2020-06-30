@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#53534E</color>
+    <color name="colorSplashStatusBar">#FEE800</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlue">#34CDF6</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorCheckLanguage">#05FFFFFF</color>
+    <color name="colorRed">#E3080F</color>
+    <color name="colorYellow">#E3CD05</color>
+    <color name="colorCanceled">#070707</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGreen">#32F306</color>
+    <color name="colorEditButton">#0CDDB4</color>
+    <color name="colorOutDated">#493B403A</color>
+    <color name="colorTabLayoutBackground">#771B1C1B</color>
+    <color name="colorHeaderBackground">#34CDF6</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uz.softs.tasks">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name="uz.softs.tasks.apps.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/apk"/>
+        </provider>
+        <activity android:name=".ui.screens.IntoScreenActivity" />
+        <activity android:name=".ui.screens.InstructionToUseActivity" />
+        <activity android:name=".ui.screens.TermsOfUseActivity" />
+        <activity android:name=".ui.screens.SettingsActivity" />
+        <activity
+            android:name=".ui.screens.SplashActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.screens.TaskBasketActivity" />
+        <activity android:name=".ui.screens.HistoryActivity" />
+        <activity android:name=".ui.screens.EditTasksActivity" />
+        <activity android:name=".ui.screens.MainActivity" />
+        <activity android:name=".ui.screens.AddTaskActivity" />
+        <activity android:name=".ui.screens.AllTaskActivity" />
+    </application>
+
+</manifest>

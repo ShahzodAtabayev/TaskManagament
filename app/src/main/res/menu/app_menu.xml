@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/groupMenu1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuAddTask"
+            android:icon="@drawable/ic_baseline_add"
+            android:title="@string/add_task" />
+        <item
+            android:id="@+id/menuSeeAllTask"
+            android:icon="@drawable/ic_see"
+            android:title="@string/all_task" />
+        <item
+            android:id="@+id/menuEditTask"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/edit_task" />
+        <item
+            android:id="@+id/menuHistory"
+            android:icon="@drawable/ic_history"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/menuTaskBasket"
+            android:icon="@drawable/ic_bin"
+            android:title="@string/task_basket" />
+    </group>
+    <group
+        android:id="@+id/groupMenu2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuTermOfUse"
+            android:icon="@drawable/ic_signs"
+            android:title="@string/term_of_use" />
+        <item
+            android:id="@+id/menuInstructionToUse"
+            android:icon="@drawable/ic_education"
+            android:title="@string/instruction_to_use" />
+        <item
+            android:id="@+id/menuSettings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/menuShare"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share" />
+    </group>
+</menu>
