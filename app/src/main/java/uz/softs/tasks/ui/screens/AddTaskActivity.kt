@@ -35,8 +35,6 @@ class AddTaskActivity : LocaleAwareCompatActivity(), ContractAddTask.View {
         setContentView(R.layout.activity_add_task)
         loadView()
         presenter = PresenterAddTask(RepositoryAddTask(), this)
-        //o'zgardi
-        // yana o'zgardi
     }
 
     @SuppressLint("SetTextI18n", "SimpleDateFormat")
