@@ -1,5 +1,4 @@
 package uz.softs.tasks.contracts
-
 import uz.softs.tasks.data.local.room.entity.TaskData
 
 
@@ -10,10 +9,12 @@ interface ContractMain {
         fun update(taskData: TaskData)
         fun getImageProfile(): String
         fun getFullNameProfile(): String
+        fun isFirst(): Boolean
+        fun setIsFirst(b: Boolean)
     }
 
     interface View {
-        fun loadDataToView(list: List<TaskData>, image: String, fullName: String)
+        fun loadDataToView(list: List<TaskData>, image: String, fullName: String, isFirst: Boolean)
         fun openNavigation()
         fun addTask()
         fun seeAllTask()

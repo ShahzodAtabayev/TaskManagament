@@ -4,10 +4,6 @@
         android:id="@+id/groupMenu1"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/menuAddTask"
-            android:icon="@drawable/ic_baseline_add"
-            android:title="@string/add_task" />
-        <item
             android:id="@+id/menuSeeAllTask"
             android:icon="@drawable/ic_see"
             android:title="@string/all_task" />

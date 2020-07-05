@@ -14,11 +14,9 @@
 
         <ImageButton
             android:id="@+id/buttonOpenNavigation"
-            android:layout_width="18dp"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="start"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_menu"
             android:contentDescription="@string/todo" />

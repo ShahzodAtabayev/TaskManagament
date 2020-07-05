@@ -10,7 +10,6 @@ import android.graphics.Matrix
 import android.graphics.drawable.BitmapDrawable
 import android.os.Bundle
 import android.provider.MediaStore
-import android.util.Log
 import android.view.LayoutInflater
 import android.widget.PopupMenu
 import uz.softs.tasks.R

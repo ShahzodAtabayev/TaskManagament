@@ -64,4 +64,8 @@
     <string name="toast3">Илтимос. Вазифалар санасини киритинг !!!</string>
     <string name="toast4">Илтимос. Вазифа вақтини киритинг !!!</string>
     <string name="finish">тугатиш</string>
+    <string name="tapTarget1">вазифа кушиш тугмаси</string>
+    <string name="tapTarget1.2">Янги вазифа яратиш учун шу йерга босинг.</string>
+    <string name="tapTarget2" >Меню тугмаси</string>
+    <string name="tapTarget2_1" >Менюни очиш учун тегинг.</string>
 </resources>

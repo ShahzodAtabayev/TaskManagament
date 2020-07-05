@@ -16,7 +16,10 @@ class PresenterMain(private val model: ContractMain.Model, private val view: Con
         runOnWorkerThread {
             val ls = model.getAllTask()
             val data = changeData(ls)
-            runOnUIThread { view.loadDataToView(data, model.getImageProfile(), model.getFullNameProfile()) }
+            runOnUIThread {
+                view.loadDataToView(data, model.getImageProfile(), model.getFullNameProfile(), model.isFirst())
+                model.setIsFirst(false)
+            }
         }
     }
 
@@ -26,7 +29,7 @@ class PresenterMain(private val model: ContractMain.Model, private val view: Con
             Thread.sleep(800)
             val ls = model.getAllTask()
             runOnUIThread {
-                view.loadDataToView(changeData(ls), model.getImageProfile(), model.getFullNameProfile())
+                view.loadDataToView(changeData(ls), model.getImageProfile(), model.getFullNameProfile(), model.isFirst())
                 view.setRefreshing(false)
             }
         }

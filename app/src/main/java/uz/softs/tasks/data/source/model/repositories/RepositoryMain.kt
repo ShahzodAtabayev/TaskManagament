@@ -17,5 +17,10 @@ class RepositoryMain : ContractMain.Model {
     }
 
     override fun getImageProfile(): String = localStorage.profileImage
-    override fun getFullNameProfile(): String =localStorage.profileFullName
+    override fun isFirst(): Boolean = localStorage.isFirst
+    override fun setIsFirst(b: Boolean) {
+        localStorage.isFirst = b
+    }
+
+    override fun getFullNameProfile(): String = localStorage.profileFullName
 }

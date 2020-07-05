@@ -68,4 +68,9 @@
     <string name="toast3">Please. Enter task date!!!</string>
     <string name="toast4">Please. Enter task time!!!</string>
     <string name="finish">finish</string>
+    <string name="tapTarget1">Add task Button</string>
+    <string name="tapTarget1.2">Tap this to create a new task.</string>
+    <string name="tapTarget2">Menu Button</string>
+    <string name="tapTarget2_1" >Tap this to open menu.</string>
+
 </resources>

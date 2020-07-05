@@ -68,4 +68,9 @@
     <string name="toast3">Пожалуйста. Введите дату задания !!!</string>
     <string name="toast4">Пожалуйста. Введите время задачи !!!</string>
     <string name="finish">конец</string>
+    <string name="tapTarget1">Кнопка добавления задачи</string>
+    <string name="tapTarget1.2">Нажмите, чтобы создать новое задание.</string>
+    <string name="tapTarget2">Кнопка меню</string>
+    <string name="tapTarget2_1" >Нажмите, чтобы открыть меню</string>
+
 </resources>

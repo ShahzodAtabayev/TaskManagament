@@ -64,4 +64,8 @@
     <string name="toast3">Iltimos. Vazifa sanasini kiriting!!!</string>
     <string name="toast4">Iltimos. Vazifa vaqtini kiriting!!!</string>
     <string name="finish">tugatish</string>
+    <string name="tapTarget1">Vazifa qo\'shish tugmasi</string>
+    <string name="tapTarget1.2">Yangi vazifa yaratish uchun shu yerga bosing.</string>
+    <string name="tapTarget2" >Menu tugmasi</string>
+    <string name="tapTarget2_1" >Menyuni ochish uchun teging.</string>
 </resources>

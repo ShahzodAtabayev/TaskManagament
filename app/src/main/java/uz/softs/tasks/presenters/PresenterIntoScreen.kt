@@ -11,7 +11,7 @@ class PresenterIntoScreen(private val model: ContractIntoScreen.Model, private v
         if (currentItem != model.getAll().size - 1) {
             view.setCurrentItem(currentItem + 1)
         } else {
-            model.setIsFirst(false)
+//            model.setIsFirst(false)
             view.finishWindow()
             view.openActivity()
         }
