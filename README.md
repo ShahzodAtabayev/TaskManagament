@@ -1,4 +1,4 @@
-# Projectc
+# Projects
 Buni arxitectura componentalari (liveData, 
 viewModel,navigation, retrofit, corountines...)
 o'rganmagan paytimda qilganman.
