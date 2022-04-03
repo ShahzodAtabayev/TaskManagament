@@ -1,7 +1,4 @@
 # Projects
-Buni arxitectura componentalari (liveData, 
-viewModel,navigation, retrofit, corountines...)
-o'rganmagan paytimda qilganman.
 TZ->
 App ninig asosiy vazifasi qilinadigan ishlarni rejalashtirishga mo'ljallangan.
 Dasturda quyidagi imkoniyatlar bo'lishi kerak:
